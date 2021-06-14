@@ -1,0 +1,42 @@
+{
+  "name": "lighter-mapper",
+  "version": "0.0.1",
+  "description": "A lightweight object mapper",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "test": "ava test/*.test.js",
+    "bench": "node benchmark/compare.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusvilla/lighter-mapper.git"
+  },
+  "keywords": [
+    "object-mapper",
+    "mapper",
+    "map"
+  ],
+  "author": "Jesús Villanueva Ramos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesusvilla/lighter-mapper/issues"
+  },
+  "homepage": "https://github.com/jesusvilla/lighter-mapper#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.5",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "ava": "^3.15.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "benchmark": "^2.1.4",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "object-mapper": "^6.2.0"
+  }
+}
